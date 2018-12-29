@@ -1,0 +1,1 @@
+UPDATE RENEWOWNER.RS_RENEW_TASK_ARC SET END_DATE_MD=to_char(end_date, 'MM-dd');

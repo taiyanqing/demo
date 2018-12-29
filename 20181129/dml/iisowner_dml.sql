@@ -1,0 +1,4 @@
+insert into iisowner.service_interface_def (DEF_ID, SORT_NO, INSURER, PROVINCE, SERVICE, INTERFACE, CREATED_BY, CREATED_DATE, UPDATED_BY, UPDATED_DATE, INTERFACE_NAME, SERVER_GROUP)
+values (iisowner.seq_template_id.nextval, 4, 'cpic', 'all', 'queryVehicleInfoByPlatform', 'trafficVehicleQuery', 'SYSTEM', sysdate, 'SYSTEM', sysdate, '广东交管车辆信息查询', 'ALL');
+insert into iisowner.service_interface_def (DEF_ID, SORT_NO, INSURER, PROVINCE, SERVICE, INTERFACE, CREATED_BY, CREATED_DATE, UPDATED_BY, UPDATED_DATE, INTERFACE_NAME, SERVER_GROUP)
+values (iisowner.seq_template_id.nextval, 5, 'cpic', 'all', 'queryVehicleInfoByPlatform', 'trafficVehicleQuery', 'SYSTEM', sysdate, 'SYSTEM', sysdate, '广东交管车辆信息查询', 'ALL');
