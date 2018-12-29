@@ -1,0 +1,5 @@
+INSERT INTO ITBASEOWNER.BJ_SETTING (JOB, APP_SERVER_ID, NAME, CLASS, CRON, PARAMETERS, MEMO) 
+SELECT 'TBS.BatchGenSafetyCheckCouponJob', APP_SERVER_ID, '批处理生成大众安全检测的权益', 'com.insaic.business.sale.batch.BatchGenSafetyCheckCouponJob', '0 */1 * * * ? ', NULL, '批处理生成大众安全检测的权益'
+FROM ITBASEOWNER.BJ_SETTING
+WHERE JOB='TBS.BatchGenServicePackageCouponJob';
+/
